@@ -1,1 +1,1 @@
-.\Courier\Sitecore.Courier.Runner.exe -t ..\src -o .\package.update -r
+New-CourierPackage -Target ..\src -Output .\package.update -SerializationProvider "Rainbow" 
